@@ -1,5 +1,6 @@
 {
     "Doctor": true,
     "Appointment": true,
-    "Booking": true
+    "Booking": true,
+    "Patient": true
 }

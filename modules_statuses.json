@@ -2,5 +2,6 @@
     "Doctor": true,
     "Appointment": true,
     "Booking": true,
-    "Patient": true
+    "Patient": true,
+    "Setting": true
 }

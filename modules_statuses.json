@@ -3,5 +3,6 @@
     "Appointment": true,
     "Booking": true,
     "Patient": true,
-    "Setting": true
+    "Setting": true,
+    "Dashboard": true
 }

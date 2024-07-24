@@ -13,10 +13,15 @@ class Patient extends Model
     /**
      * The attributes that are mass assignable.
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'name',
+        'phone',
+        'address',
+        'age',
+        'gender',
+        'code',
 
-    protected static function newFactory(): PatientFactory
-    {
-        //return PatientFactory::new();
-    }
+    ];
+
+
 }

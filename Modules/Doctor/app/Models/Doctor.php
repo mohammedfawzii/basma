@@ -13,10 +13,11 @@ class Doctor extends Model
     /**
      * The attributes that are mass assignable.
      */
-    protected $fillable = [];
-
-    protected static function newFactory(): DoctorFactory
-    {
-        //return DoctorFactory::new();
-    }
+    protected $fillable = [
+        'name',
+        'phone',
+        'img',
+        'position',
+        'bio',
+    ];
 }
